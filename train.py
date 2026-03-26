@@ -1,4 +1,3 @@
-import random
 
 # simulate training
 accuracy = 0.9
