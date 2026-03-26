@@ -21,7 +21,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: model-info
-          path: model_info.txt
+          path: |
+            model_info.txt
+            accuracy.txt
 
   deploy:
     runs-on: ubuntu-latest
