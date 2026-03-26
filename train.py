@@ -1,7 +1,7 @@
 import random
 
 # simulate training
-accuracy = random.uniform(0.85, 0.95)
+accuracy = 0.9
 
 print(f"Model accuracy: {accuracy}")
 
